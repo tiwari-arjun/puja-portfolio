@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bacasime+Antique&family=M+PLUS+1p&family=PT+Sans:ital@1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500&family=Raleway:wght@200&family=Roboto:wght@300&family=Ysabeau+Infant&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+
+  
+  header {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+   
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.2s;
+  }
+
+  nav ul li a:hover{
+    color: skyblue;
+  }
+
+.main h1{
+    color:#333;
+    position: relative;
+    top: 70px;
+    left: 60px;
+    font-size: 45px;
+    cursor: pointer;
+    transition: color 0.2s;
+    display: inline;
+}
+
+.main h1:hover{
+  color: orange;
+}
+
+
+.main h1 span{
+    color:  #2785ab;
+    font-weight: lighter;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.main h3{
+    position: relative;
+    top: 90px;
+    left: 85px;
+    font-size: 30px;
+    cursor: pointer;
+}
+ 
+.main p{
+  color: #333;
+  position: relative;
+  top: 130px;
+  left:80px;
+  font-weight: none;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.port p{
+  color: #fff;
+  position: relative;
+  top: 2pc;
+  left: 10px;
+  font-size: 27px;
+  padding: 5px;
+  display: inline;
+  margin: 5px;
+  cursor: pointer;
+  transition: color,background,border,border-radius 0.2s;
+}
+
+.port p:hover{
+  color: #333;
+  background: #fff;
+  border: 1px solid blue;
+  border-radius: 10px;
+ 
+}
+
+img{
+ position: relative;
+ left: 50pc;
+ bottom: 9pc;
+ box-shadow:5px 5px 5px 5px #fff;
+}
+
+.animation{
+  color: #303032;
+}
+
+.skills h4{
+  position: relative;
+  bottom: 16pc;
+  left: 6pc;
+  font-size: 20px;
+}
+
+.footer p{
+  position: relative;
+  bottom: 14pc;
+  left:5pc;
+  border: 1px solid blue;
+  display: inline;
+  padding: 10px;
+  margin: 2px;
+  border-radius: 30px;
+background-color: #333;
+color: #fff;
+transition:border,border-radius 0.2s;
+opacity: 0.10pc;
+cursor: pointer;
+}
+
+.footer p:hover{
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+
+@media(mix-width:1230px){
+
+
+
+  .main h1{
+    font-size: 20px;
+    float: left;
+  }
+
+
+
+}

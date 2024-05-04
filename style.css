@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bacasime+Antique&family=M+PLUS+1p&family=PT+Sans:ital@1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500&family=Raleway:wght@200&family=Roboto:wght@300&family=Ysabeau+Infant&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.2s;
+  }
+
+  
+  nav ul li a:hover{
+    color: skyblue;
+  }
+
+  #puja{
+    height: 80vh;
+    width: auto;
+    border-radius: 40px;
+  }
+  img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    cursor: pointer;
+    
+  }
+
+  .insta{
+    position: relative;
+    height: 50px;
+    width: 100px;
+  }
+
+  .main h2{
+    position: relative;
+    left: 20pc;
+    top: 10pc;
+    font-size: 45px;
+    letter-spacing: 2px;
+    color: black;
+font-weight: 200;
+cursor: pointer;
+transition: color 0.2s;
+  }
+
+  .main h2:hover{
+color: orange;
+  }
+  .main p{
+    font-size: 26px;
+    position: relative;
+    left: 23pc;
+    top: 11pc;
+    color: green;
+  }
+
+ img.arjun{
+height: 500px;
+width: 350px;
+position: relative;
+left: 10px;
+bottom: 50px;
+  }
+
+  .main h4{
+    position: relative;
+    bottom: 18pc;
+    left: 30pc;
+    margin-left: 0;
+    margin-top: 0;
+    padding-right: 30pc;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 100;
+  
+   
+  }
